@@ -1,0 +1,101 @@
+.items-profile{
+    width: 90%;
+    background-color: #c0c0c0;
+    height: 400px;
+    margin-bottom:20px;
+    position: relative;
+    left: 5%;
+    top: 200px;
+    border: 3px solid white;
+    box-shadow: 0 0 90px 0 black;
+
+}
+.btn-and-img{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    &>.img{
+        width: 150px;
+        position: relative;
+        bottom: 80px;
+        background-color: aliceblue;
+        border-radius: 100px;
+        &>img{
+            width: 100%;
+            height: 100%;
+            border-radius: 100px;
+        }
+    }
+    &>.link{
+        min-width: 20%;
+        max-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+         &>ul{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            &>li{
+                display: inline-block;
+            }
+         }
+    }
+}
+.info{
+    width: 50%;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    &>h1,h3,h2{
+        
+        width: 50%;
+        display: inline-block;
+        font-weight: 100;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+    }
+    
+}
+
+.filter-user{
+    display: inline-block;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    left: 70%;
+    bottom: 200px;
+    background-color: rgb(255, 250, 250);
+    padding: 50px;
+    box-shadow: 10px 10px 60px 10px black;
+    border: 2px solid black;
+
+    &>input{
+        width: 80%;
+            height: 30px;
+            border-radius: 10px;
+            text-align: center;
+         }
+         &>select{
+            width: 80%;
+            text-align: center;
+            height: 30px;
+            border-radius: 10px;
+        }
+        
+            &>.btn{
+                    width: 100px;
+                    height: 30px;
+                    border-radius: 0;
+                    background-color: rgb(39, 39, 234);
+                    color: white;
+                }
+}

@@ -1,0 +1,15 @@
+.items-slider{
+    background-color: aliceblue;
+    width: 90%;
+    height: 300px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    &>div{
+        border: 2px solid black;
+        height: 300px;
+    }
+}
